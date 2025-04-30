@@ -1,0 +1,16 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# settings files
+.vscode/
+
+# datasets
+data/
+
+# output config files, logging files
+*runs
+*temp
+**/configs/runs/*.yaml
+*.json

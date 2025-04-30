@@ -1,0 +1,50 @@
+activation: relu
+adv_eps: 0.2
+adv_eps_iter: 0.01
+adv_eval: false
+adv_nb_iter: 20
+adv_norm: 'inf'
+adv_train: false
+alpha: 1.0
+batch_size: 128
+config_dir: config
+criterion: ce
+data_dir: ./data/
+dataset: MNIST
+debug_mode: False
+device: cuda
+dropout: 0.0
+epochs: 15
+eps: 0.00001
+iterations: 1
+log_dir: ./runs/
+metric_dir: metrics
+model_dir: ckpt
+model_name: null
+model_type: fc
+noise_train: 0.4
+norm: normal
+num_workers: 0
+optim: sgd
+optim_param:
+    adam:
+        beta1: 0.9
+        beta2: 0.999
+        lr: 0.0003
+        weight_decay: 0.0
+    sgd:
+        lr: 0.1
+        momentum: 0.9
+        nesterov: false
+        weight_decay: 0.0
+order: 2
+param: null
+param_dir: ./params/
+plot: true
+plot_dir: plots
+random_seed: 2
+save_model: best
+shuffle: true
+stdout_dir: stdout
+tmp_log_dir: ./temp/runs/
+weighted_sampler: false

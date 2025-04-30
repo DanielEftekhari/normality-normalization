@@ -1,0 +1,11 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+matplotlib
+pillow
+PyYAML
+h5py
+psutil
+scipy
+scikit-learn
+git+https://github.com/BorealisAI/advertorch.git
