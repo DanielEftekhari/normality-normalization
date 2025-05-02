@@ -1,6 +1,6 @@
 # Normality Normalization #
 
-Code accompanying the ICML 2025 paper "On the Importance of Gaussianizing Representations".
+Code accompanying the ICML 2025 paper [On the Importance of Gaussianizing Representations](https://arxiv.org/abs/2505.00685).
 
 ## Requirements:
 
