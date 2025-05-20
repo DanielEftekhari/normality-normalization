@@ -20,7 +20,7 @@ Configuration Specification files:<br/>
 Architecture Specification files:<br/>
 `./params/resnet.txt`: ResNet architectures can be specified here. The order of arguments is: {block type, [layers_1, layers_2, layers_3, layers_4], width_per_group}. The default values in ./params/resnet.txt correspond to ResNet18.<br/>
 `./params/vit.txt`: Vision Transformer architectures can be specified here. The order of arguments is: {[patch_size, num_layers, num_heads], [hidden_dim, mlp_dim], [dropout, attention_dropout], image_size}.<br/>
-`./params/wideresnet.txt`: WideResNet architectures can be specified here. The order of arguments is: {depth, widen_factor, dropout}. The default values in ./params/wideresnet.txt correspond to WideResNet28-5.<br/>
+`./params/wideresnet.txt`: WideResNet architectures can be specified here. The order of arguments is: {depth, widen_factor, dropout}. The default values in ./params/wideresnet.txt correspond to WideResNet28-2.<br/>
 `./params/fc.txt`: Fully Connected network architectures can be specified here. The order of arguments is: {num_units, num_units, ...}, so that each entry corresponds to the number of units for each successive layer. The default values in ./params/fc.txt correspond to a fully connected network with two layers, each with 1000 units.<br/>
 
 ## Usage:
