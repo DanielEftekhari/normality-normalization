@@ -2,6 +2,22 @@
 
 Code accompanying the ICML 2025 paper [On the Importance of Gaussianizing Representations](https://arxiv.org/abs/2505.00685).
 
+Citation:
+```
+@misc{eftekhari2025importancegaussianizingrepresentations,
+      title={On the Importance of Gaussianizing Representations}, 
+      author={Daniel Eftekhari and Vardan Papyan},
+      year={2025},
+      eprint={2505.00685},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.00685}, 
+}
+```
+
+Correspondences to: Daniel Eftekhari<br/>
+defte@cs.toronto.edu
+
 ## Requirements:
 
 Python 3.8 or higher.<br/>
