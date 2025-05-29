@@ -2,22 +2,6 @@
 
 Code accompanying the ICML 2025 paper [On the Importance of Gaussianizing Representations](https://arxiv.org/abs/2505.00685).
 
-Citation:
-```
-@misc{eftekhari2025importancegaussianizingrepresentations,
-      title={On the Importance of Gaussianizing Representations}, 
-      author={Daniel Eftekhari and Vardan Papyan},
-      year={2025},
-      eprint={2505.00685},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.00685}, 
-}
-```
-
-Correspondences to: Daniel Eftekhari<br/>
-defte@cs.toronto.edu
-
 ## Requirements:
 
 Python 3.8 or higher.<br/>
@@ -59,6 +43,23 @@ To reproduce the ViT/SVHN experimental setup, enter:
 In a similar manner, our experimental configurations can be reproduced using these simple command line changes, and for architectural changes, by modifying the corresponding `./params/<model_type>.txt` file.
 
 You can also simply copy our `./layers.py` file into your own codebase, and import any of the layers we've implemented from there. For example, to import `BatchNormalNorm2d`, you would enter `from layers import BatchNormalNorm2d`.
+
+### Citation:
+```
+@misc{eftekhari2025importancegaussianizingrepresentations,
+      title={On the Importance of Gaussianizing Representations}, 
+      author={Daniel Eftekhari and Vardan Papyan},
+      year={2025},
+      eprint={2505.00685},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.00685}, 
+}
+```
+
+Correspondences to:<br/>
+Daniel Eftekhari<br/>
+defte@cs.toronto.edu
 
 ### License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
