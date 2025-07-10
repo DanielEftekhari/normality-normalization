@@ -46,14 +46,13 @@ You can also simply copy our `./layers.py` file into your own codebase, and impo
 
 ### Citation:
 ```
-@misc{eftekhari2025importancegaussianizingrepresentations,
-      title={On the Importance of Gaussianizing Representations}, 
-      author={Daniel Eftekhari and Vardan Papyan},
-      year={2025},
-      eprint={2505.00685},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.00685}, 
+@inproceedings{
+eftekhari2025on,
+title={On the Importance of Gaussianizing Representations},
+author={Daniel Eftekhari and Vardan Papyan},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=z2rrB4S3hg}
 }
 ```
 
