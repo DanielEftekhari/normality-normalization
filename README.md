@@ -6,7 +6,7 @@ Code accompanying the ICML 2025 paper [On the Importance of Gaussianizing Repres
 
 Python 3.8 or higher.<br/>
 
-Specific module and version requirements are listed in requirements.txt. After cloning the repository, `cd` to the repo directory, and enter `pip install -r requirements.txt`.
+Specific module and version requirements are listed in `requirements.txt`. After cloning the repository, `cd` to the repo directory, and enter `pip install -r requirements.txt`.
 
 ## Usage:
 As a very basic example of usage, to train and evaluate a fully connected network with normality normalization on the MNIST classification task, enter:
