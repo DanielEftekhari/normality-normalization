@@ -27,6 +27,8 @@ In a similar manner, our experimental configurations can be reproduced using the
 
 You can also simply copy our `./layers.py` file into your own codebase, and import any of the layers we've implemented from there. For example, to import `BatchNormalNorm2d`, you would enter `from layers import BatchNormalNorm2d`.
 
+Note that depending on the task, increasing the value for `noise_train` (the noise factor) from its default value, may lead to an increased benefit to generalization performance. For example in `BatchNormalNorm2d`, `noise_train=0.6` may work better than the default value of `noise_train=0.4`. Similarly in `LayerNormalNorm`,`noise_train=1.5` may work better than the default value of `noise_train=1.0`. Thus it is worth experimenting with the value for this parameter.
+
 ## File Descriptions:
 
 Executable files:<br/>
